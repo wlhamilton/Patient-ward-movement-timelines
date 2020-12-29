@@ -1,7 +1,7 @@
 # Patient-ward-movement-timelines
 R script for visualising patient ward movements as timelines
 
-This is an implementation of the R package vistime created by Saandro Raabe - https://github.com/shosaco/vistime.
+This is an implementation of the R package vistime created by Sandro Raabe - https://github.com/shosaco/vistime.
 
 The script generates patient ward movement timeline plots. These plots have been used to investigate hospital-onset COVID-19 infections (e.g. Figure 5 in Meredith & Hamilton et al., 2020: https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30562-4/fulltext). The plots show when patients were co-located on the same ward(s) within a hospital and when they first tested positive for COVID-19. This can be helpful for investigations of possible hospital acquired infections.
 
@@ -16,4 +16,4 @@ This R script generates an identical plot but the input data is in the format pr
 ward_moves_mock_data_input.csv = mock patient ward movement data in same format as Epic produces
 ward_conversion_mock_data.csv = conversion code for anonymised ward names
 
-All credit for the vistime package goes to its creator Saandro Raabe.
+All credit for the vistime package goes to its creator Sandro Raabe.
