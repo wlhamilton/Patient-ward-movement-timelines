@@ -7,6 +7,13 @@ The script generates patient ward movement timeline plots. These plots have been
 
 The script uses gg_vistime to produce the timeline plots with ggplot2 syntax for tweaks, and data manipulations using the tidyverse. I wasn't able to produce a legend "in-house" with vistime so generate a separate legend "manually" and add it using cowplot. Date of positive test result for COVID-19 are indicated by black dots. Colour scheme uses RColorBrewer "Set3" but this could easily be changed. 
 
-The files here show an R script including mock data for 3 patients and the output pdf image created.
+Files:
+R script to generate example ward movement plot.R
+This is an R script that generates a ward movement timeline plot from mock data encoded in the script. The output is timeline_plot_mock_data.pdf.
+
+R script for formatting ward movement data.R
+This R script generates an identical plot but the input data is in the format produced by the electronic patient records system (Epic) used in my hospital. The script first re-formats this into the right format for vistime. In addition it anonymises the ward names, as would be needed when working with real patient data. 
+ward_moves_mock_data_input.csv = mock patient ward movement data in same format as Epic produces
+ward_conversion_mock_data.csv = conversion code for anonymised ward names
 
 All credit for the vistime package goes to its creator Saandro Raabe.
