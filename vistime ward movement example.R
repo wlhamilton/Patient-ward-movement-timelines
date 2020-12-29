@@ -1,7 +1,7 @@
 ############# Producing patient ward movement timelines with vistime
 
 ### Set working directory
-setwd("~/Documents/science/covid19/analysis/ward_timelines")
+setwd("PATH/ward_timelines")
 
 ### Load packages
 library("vistime")
